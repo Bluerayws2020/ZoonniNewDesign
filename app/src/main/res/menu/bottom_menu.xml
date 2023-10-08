@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home1"
+            />
+
+        <item
+            android:id="@+id/categories"
+            android:title="Categories"
+            android:icon="@drawable/categories"
+            />
+
+        <item
+            android:id="@+id/placeHolder"
+            android:title=""
+            />
+
+        <item
+            android:id="@+id/deals"
+            android:title="Deals"
+            android:icon="@drawable/offer"
+            />
+        <item
+            android:id="@+id/favorite"
+            android:title="Favorite"
+            android:icon="@drawable/heartsvg"
+
+            />
+    </group>
+</menu>
+
+
+

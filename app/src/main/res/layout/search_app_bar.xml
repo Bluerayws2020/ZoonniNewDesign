@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/menuItem"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/menu_1"
+        />
+    <TextView
+        android:id="@+id/searchEt"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@id/menuItem"
+        app:layout_constraintEnd_toStartOf="@id/cartIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#ebedf5"
+        android:background="@drawable/custom_rectangel"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="what are you looking for?"
+        android:gravity="center_vertical"
+        android:paddingStart="35dp"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/magnifying_glass"
+        app:layout_constraintStart_toStartOf="@id/searchEt"
+        app:layout_constraintTop_toTopOf="@id/searchEt"
+        app:layout_constraintBottom_toBottomOf="@id/searchEt"
+        app:tint="#878787"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/cartIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/grocery_store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="20dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

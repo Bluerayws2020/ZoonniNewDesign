@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/myOrders"
+            android:title="My Orders"
+            android:icon="@drawable/boxessvg"
+            />
+
+        <item
+            android:id="@+id/favorite"
+            android:title="Favorite"
+            android:icon="@drawable/heartsvg"
+
+            />
+
+        <item
+            android:id="@+id/accountSettings"
+            android:title="My Account Settings"
+            android:icon="@drawable/cogwheelsvg"
+            />
+
+        <item
+            android:id="@+id/notifications"
+            android:title="Notifications"
+            android:icon="@drawable/bellsvg"
+            />
+
+
+
+        <item
+            android:id="@+id/contactUs"
+            android:title="Contact Us"
+            android:icon="@drawable/contactmailsvg"
+            />
+        <item
+            android:id="@+id/changeLanguage"
+            android:title="Language"
+            android:icon="@drawable/language_icon"
+            />
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logoutsvg"
+            />
+    </group>
+</menu>
+
+
+
